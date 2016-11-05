@@ -9,6 +9,7 @@ import { LiquidacionesComponent } from './liquidaciones/liquidaciones.component'
 import { TarifasComponent } from './tarifas/tarifas.component';
 import { NuevaliquidacionComponent } from './nuevaliquidacion/nuevaliquidacion.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { MDLComponent } from './MaterialDesignLiteUpgradeElement';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InicioComponent } from './inicio/inicio.component';
     LiquidacionesComponent,
     TarifasComponent,
     NuevaliquidacionComponent,
-    InicioComponent
+    InicioComponent,
+    MDLComponent
   ],
   imports: [
     BrowserModule,
